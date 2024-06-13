@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Usuario from './pages/Usuario';
 import Funcionario from './pages/Funcionario';
 import ListaUsuario from './pages/ListaUsuario';
+import Login from './pages/Login';
 
 function RoutesApp(){
  return(
@@ -12,10 +13,9 @@ function RoutesApp(){
         <Header />
             <Routes>
                 <Route path="/" element={<Home/>}/>
-                <Route path="/usuario" element={<Usuario/>}/>
-                <Route path="/listausuario" element={<ListaUsuario/>}/>
-                <Route path="/funcionario" element={<Funcionario/>}/>
-                
+                <Route path="/add-usuario" element={<Usuario/>}/>
+                <Route path="/usuario" element={<ListaUsuario/>}/>
+                <Route path="/add-funcionario" element={<Funcionario/>}/> 
             </Routes>
         
     

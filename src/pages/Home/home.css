@@ -3,19 +3,101 @@
     cursor: pointer;
     background-color: black;
     padding: 5px 14px;
-    color:lightgreys;
+    color:white;
     border-radius: 4px;
     display: inline-block;
-    margin: 10px;
+    margin-left: 65px;
+    margin-top: 20px;
+}
+.funcionario{
+    text-decoration: none;
+    cursor: pointer;
+    background-color: black;
+    padding: 5px 14px;
+    color:white;
+    border-radius: 4px;
+    display: inline-block;
+    margin-left: 58px;
+    margin-top: 20px;
 }
 
-.box {
+.box1 {
     background-color: lightgrey;
     width: 300px;
     border: 15px solid black;
-    padding: 50px;
+    padding: 60px;
     margin: 0 auto;
     margin-bottom: 100px; 
     margin-top: 50px
-
 }
+
+.box2 {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid black;
+    padding: 60px;
+    margin: 0 auto;
+    margin-bottom: 100px; 
+    margin-top: 100px
+}
+
+.box3 {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid black;
+    padding: 60px;
+    margin: 0 auto;
+    margin-bottom: 100px; 
+    margin-top: 10px
+}
+
+.footer{
+    background:black;
+    padding: 30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align: center;}
+    
+.footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    
+}
+    
+.footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+}
+    
+.footer .row a:hover{
+    color:#fff;
+}
+    
+.footer .row ul{
+    width:97%;
+}
+    
+.footer .row ul li{
+    display:inline-block;
+    margin:0px 40px;
+}
+    
+.footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+}
+
+.footer .row1{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:black;
+    font-size:20px;
+}
+
+
+
+

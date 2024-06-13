@@ -5,7 +5,7 @@ function Header(){
 
     return(
             <header>
-                <a href="/" className="logo">CONFIT</a>
+                <a href="/" className="logo">ONFIT</a>
             </header>
 
     )

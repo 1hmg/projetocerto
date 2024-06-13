@@ -30,7 +30,8 @@ if (error) return <p>Erro: {error}</p>;
 return (
     <ul>
         {data.map(item => (
-            <li key={item.id}>{item.codigo}-{item.nome}-{item.email}-{item.senha}</li>
+            <li key={item.id}> {item.codigo}-{item.nome}-{item.cpf}-{item.email}-{item.senha}
+            </li>
             ))}
     </ul>
 );

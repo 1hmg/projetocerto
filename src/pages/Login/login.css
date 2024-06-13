@@ -1,0 +1,148 @@
+body {
+    position: relative;
+    padding: 0;
+    margin: 0;
+
+}
+
+#login {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card {
+
+    background-color: lightgrey;
+    padding: 40px;
+    border-radius: 2px;
+    width:280px;
+    margin-bottom: 150px;
+    margin-top: 400px;
+
+}
+
+.card-header {
+
+    padding-bottom: 50px;
+    opacity: 0.8;
+    color: black;
+}
+
+.card-header::after {
+
+    content: "";
+    width: 70px;
+    height: 1px;
+    background-color: black;
+    display: block;
+    margin-top: -17px;
+    margin-left: -5px;
+}
+
+.card-content label {
+
+    color: black;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.card-content-area {
+
+    display: flex;
+    flex-direction: column;
+    padding:10px 0;
+}
+
+.card-content-area input {
+
+    margin-top: 10px;
+    padding:0 5px;
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid black;
+    outline: none;
+    color: black;
+}
+
+.card-footer {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card-footer .submit{
+
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    border:none;
+    color:#e1e1e1;
+    margin: 10px 0;
+}
+
+.card-footer a {
+
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.8;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer1{
+    display:absolute;
+    bottom: 0;
+    background:black;
+    padding: 30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+    width: 200vh;
+}
+    
+.footer1 .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    
+}
+    
+.footer1 .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+}
+    
+.footer1 .row a:hover{
+    color:#fff;
+}
+    
+.footer1 .row ul{
+    width:97%;
+}
+    
+.footer1 .row ul li{
+    display:inline-block;
+    margin:0px 40px;
+}
+    
+.footer1 .row a i{
+    font-size:2em;
+    margin:0% 1%;
+}
+
+.footer1 .row1{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:black;
+    font-size:20px;
+}
+
+    
